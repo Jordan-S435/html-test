@@ -1,0 +1,76 @@
+/* Custom Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Grid Styling */
+nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ff6347;
+}
+
+/* Style 2 HTML Tags */
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    color: #34495e;
+}
+
+/* Classes */
+.highlight {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-left: 4px solid #ff6347;
+}
+
+.grid-gallery {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    gap: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Styling the Bio and Further Text Links */
+.bio-link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bio-link:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Explore New CSS Property: 'scroll-margin' */
+section {
+    scroll-margin-top: 80px;
+}

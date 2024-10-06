@@ -7,23 +7,39 @@
     <meta name="description" content="Profile of Anakin Skywalker, a fictional character known for being the chosen one in the Star Wars universe.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile of Anakin Skywalker</title>
+
+    <!-- Link to Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+
+    <!-- Navigation Grid -->
+    <nav>
+        <a href="#background">Background</a>
+        <a href="#career-achievements">Career Achievements</a>
+        <a href="#notable-moments">Notable Moments</a>
+        <a href="#hobbies-interests">Hobbies & Interests</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
     <!-- Profile of Anakin Skywalker -->
     <header>
         <h1>Anakin Skywalker: The Chosen One</h1>
-        <p><strong>Anakin Skywalker</strong> is a fictional character in the Star Wars universe. Most notably referred to as the strongest Jedi of all time.</p>
+        <p class="highlight"><strong>Anakin Skywalker</strong> is a fictional character in the Star Wars universe. Most notably referred to as the <em>strongest Jedi of all time.</em></p>
     </header>
 
     <main>
         <section id="background">
             <h2>Background</h2>
-            <p>Born into slavery with only his mother, Anakin dreamed of saving them from their captors to live a better life.</p>
+            <p class="highlight">Born into slavery with only his mother, Anakin dreamed of saving them from their captors to live a better life.</p>
         </section>
 
         <section id="career-achievements">
             <h2>Career Achievements</h2>
-            <p>Anakin started his journey at around 8 when <em>Jedi Knights</em>brought him in for his high force potential. He grew the ranks over several years and eventually became a Jedi Knight and one of the greatest generals during the Clone Wars. His story after the Clone Wars takes a darker twist, but that's a different story.</p>
+            <p>Anakin started his journey at around 8 when <em>Jedi Knights</em> brought him in for his high force potential. He grew the ranks over several years and eventually became a Jedi Knight and one of the greatest generals during the Clone Wars. His story after the Clone Wars takes a darker twist, but that's a different story.</p>
         </section>
 
         <section id="notable-moments">
@@ -44,15 +60,17 @@
             </ul>
         </section>
 
-        <section id="gallery">
+        <!-- Grid Image Gallery -->
+        <section id="gallery" class="grid-gallery">
             <h3>Gallery</h3>
-            <img src="https://variety.com/wp-content/uploads/2024/02/MCDSTWA_FE034.jpg?w=1000&h=667&crop=1" alt="EP 3">
-            <img src="https://rebellegion.com/wp-content/uploads/2024/02/Anakin-Skywalker-Episode-III-01.jpg" alt="Battle">
-            <img src="https://i0.wp.com/anakin.me/wp-content/uploads/2022/03/anakin-rage.jpg?fit=1280%2C720&ssl=1" alt="Power">
+            <div class="image-container">
+                <img src="Images/Anakin1.webp" alt="EP 3">
+                <img src="Images/Anakin2.jpg" alt="Battle">
+                <img src="Images/Anakin3.webp" alt="Power">
+            </div>
             <br>
-            <a href="https://starwars.fandom.com/wiki/Anakin_Skywalker/Legends">Bio</a>
-            <br>
-            <a href="https://www.starwars.com/databank/anakin-skywalker">Further Text</a>
+            <a class="bio-link" href="https://starwars.fandom.com/wiki/Anakin_Skywalker/Legends">Bio</a>
+            <a class="bio-link" href="https://www.starwars.com/databank/anakin-skywalker">Further Text</a>
         </section>
     </main>
 
